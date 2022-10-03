@@ -26,7 +26,8 @@ namespace Nine2Table
             {
                 for (int j = 1; j <= 9; j++)
                 {
-                    r = i * j;                  
+                    r = i * j;
+                    // .
                     Console.Write("{0}x{1}={2} ", i, j, r);
                     if (i * j < 10)
                     {
